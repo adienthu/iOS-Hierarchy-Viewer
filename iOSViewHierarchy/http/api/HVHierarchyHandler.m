@@ -7,7 +7,6 @@
 #import "HVDefines.h"
 #import "HVHierarchyHandler.h"
 #import "HVHierarchyScanner.h"
-#import "JSONKit.h"
 
 @implementation HVHierarchyHandler
 
@@ -28,7 +27,14 @@
       [responseDic setValue:[NSNumber numberWithFloat:screenRect.size.height] forKey:@"screen_h"];
       [responseDic setValue:@IOS_HIERARCHY_VIEWER_VERSION forKey:@"version"];
       //[responseDic setValue:[NSArray arrayWithObjects:@"CGRect", @"CGPoint", @"NSString", @"BOOL", nil] forKey:@"editable"];];
-      return [self writeText:[responseDic JSONString] toSocket:socket];
+      NSError* error = nil;
+      NSData* jsonData = [NSJSONSerialization dataWithJSONObject:responseDic options:0 error:&error];
+      if (error) {
+          NSLog(@"iOSHierarchyViewer: %@",[error description]);
+          return NO;
+      }
+      return [self writeData:(char *)[jsonData bytes] length:jsonData.length toSocket:socket];
+//      return [self writeText:[responseDic JSONString] toSocket:socket];
     }
     return NO;
   }
