@@ -83,6 +83,13 @@ static HVCoreDataHandler *coreDataHandler = nil;
   }
 }
 
++(void)load
+{
+#ifdef TARGET_DYNAMIC
+    [iOSHierarchyViewer start];
+#endif
+}
+
 + (void) addContext:(NSManagedObjectContext*)context name:(NSString*)name
 {
   if ( coreDataHandler ) {

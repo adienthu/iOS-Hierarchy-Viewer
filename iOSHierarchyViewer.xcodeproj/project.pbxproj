@@ -32,11 +32,43 @@
 		7CB3BD72158A44CF0001D338 /* HVHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CB3BD64158A44CF0001D338 /* HVHTTPServer.h */; };
 		7CB3BD73158A44CF0001D338 /* HVHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB3BD65158A44CF0001D338 /* HVHTTPServer.m */; };
 		7CB3BD79158A45850001D338 /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CB3BD77158A45850001D338 /* JSONKit.h */; };
-		7CB3BD7A158A45850001D338 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB3BD78158A45850001D338 /* JSONKit.m */; };
 		7CE2ED1415E40CDE00684792 /* HVCoreDataHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CE2ED1215E40CDE00684792 /* HVCoreDataHandler.h */; };
 		7CE2ED1515E40CDE00684792 /* HVCoreDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE2ED1315E40CDE00684792 /* HVCoreDataHandler.m */; };
 		7CE955DE1540C5CB0042A03A /* HVHierarchyScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CE955D01540C5CB0042A03A /* HVHierarchyScanner.h */; };
 		7CE955DF1540C5CB0042A03A /* HVHierarchyScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE955D11540C5CB0042A03A /* HVHierarchyScanner.m */; };
+		88B36D3916E0D5A300C1AFB4 /* iOSHierarchyViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C861E4A153DF33A00935C95 /* iOSHierarchyViewer.m */; };
+		88B36D3A16E0D5A300C1AFB4 /* HVHierarchyScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE955D11540C5CB0042A03A /* HVHierarchyScanner.m */; };
+		88B36D3B16E0D5A300C1AFB4 /* HVHierarchyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB3BD59158A44CF0001D338 /* HVHierarchyHandler.m */; };
+		88B36D3C16E0D5A300C1AFB4 /* HVBase64StaticFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB3BD5B158A44CF0001D338 /* HVBase64StaticFile.m */; };
+		88B36D3D16E0D5A300C1AFB4 /* HVPreviewHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB3BD5D158A44CF0001D338 /* HVPreviewHandler.m */; };
+		88B36D3E16E0D5A300C1AFB4 /* HVPropertyEditorHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB3BD5F158A44CF0001D338 /* HVPropertyEditorHandler.m */; };
+		88B36D3F16E0D5A300C1AFB4 /* HVStaticFileHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB3BD61158A44CF0001D338 /* HVStaticFileHandler.m */; };
+		88B36D4016E0D5A300C1AFB4 /* HVBaseRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB3BD63158A44CF0001D338 /* HVBaseRequestHandler.m */; };
+		88B36D4116E0D5A300C1AFB4 /* HVHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB3BD65158A44CF0001D338 /* HVHTTPServer.m */; };
+		88B36D4316E0D5A300C1AFB4 /* HVCoreDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE2ED1315E40CDE00684792 /* HVCoreDataHandler.m */; };
+		88B36D4416E0D5A300C1AFB4 /* navbar.js in Sources */ = {isa = PBXBuildFile; fileRef = 7C11395715E580BA004AED3F /* navbar.js */; };
+		88B36D4616E0D5A300C1AFB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C861E37153DF2E000935C95 /* Foundation.framework */; };
+		88B36D4816E0D5A300C1AFB4 /* iOSHierarchyViewer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C861E49153DF33A00935C95 /* iOSHierarchyViewer.h */; };
+		88B36D4916E0D5A300C1AFB4 /* HVHierarchyScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CE955D01540C5CB0042A03A /* HVHierarchyScanner.h */; };
+		88B36D4A16E0D5A300C1AFB4 /* HVHierarchyHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CB3BD58158A44CF0001D338 /* HVHierarchyHandler.h */; };
+		88B36D4B16E0D5A300C1AFB4 /* HVBase64StaticFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CB3BD5A158A44CF0001D338 /* HVBase64StaticFile.h */; };
+		88B36D4C16E0D5A300C1AFB4 /* HVPreviewHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CB3BD5C158A44CF0001D338 /* HVPreviewHandler.h */; };
+		88B36D4D16E0D5A300C1AFB4 /* HVPropertyEditorHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CB3BD5E158A44CF0001D338 /* HVPropertyEditorHandler.h */; };
+		88B36D4E16E0D5A300C1AFB4 /* HVStaticFileHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CB3BD60158A44CF0001D338 /* HVStaticFileHandler.h */; };
+		88B36D4F16E0D5A300C1AFB4 /* HVBaseRequestHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CB3BD62158A44CF0001D338 /* HVBaseRequestHandler.h */; };
+		88B36D5016E0D5A300C1AFB4 /* HVHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CB3BD64158A44CF0001D338 /* HVHTTPServer.h */; };
+		88B36D5116E0D5A300C1AFB4 /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CB3BD77158A45850001D338 /* JSONKit.h */; };
+		88B36D5216E0D5A300C1AFB4 /* HVDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 688149CF15D1929400E38AE0 /* HVDefines.h */; };
+		88B36D5316E0D5A300C1AFB4 /* HVCoreDataHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CE2ED1215E40CDE00684792 /* HVCoreDataHandler.h */; };
+		88B36D5416E0D5A300C1AFB4 /* webapp_jquery.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C11391815E57627004AED3F /* webapp_jquery.h */; };
+		88B36D5516E0D5A300C1AFB4 /* webapp_style.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C11391915E57627004AED3F /* webapp_style.h */; };
+		88B36D5616E0D5A300C1AFB4 /* webapp_index_core.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C11395515E58076004AED3F /* webapp_index_core.h */; };
+		88B36D5716E0D5A300C1AFB4 /* webapp_navbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C11395915E580C4004AED3F /* webapp_navbar.h */; };
+		88B36D5816E0D5A300C1AFB4 /* webapp_index_ui.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C12E28115E7E292009D2F26 /* webapp_index_ui.h */; };
+		88B36D6416E0D74C00C1AFB4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD97A5415B299E500CBAAA1 /* QuartzCore.framework */; };
+		88B36D6616E0D74D00C1AFB4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B36D6516E0D74D00C1AFB4 /* CoreData.framework */; };
+		88B36D6916E0D75E00C1AFB4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B36D6816E0D75E00C1AFB4 /* CoreGraphics.framework */; };
+		88B36D6B16E0D76A00C1AFB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B36D6A16E0D76900C1AFB4 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +109,10 @@
 		7CE2ED1315E40CDE00684792 /* HVCoreDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVCoreDataHandler.m; sourceTree = "<group>"; };
 		7CE955D01540C5CB0042A03A /* HVHierarchyScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVHierarchyScanner.h; sourceTree = "<group>"; };
 		7CE955D11540C5CB0042A03A /* HVHierarchyScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVHierarchyScanner.m; sourceTree = "<group>"; };
+		88B36D5D16E0D5A300C1AFB4 /* iOSHierarchyViewer.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = iOSHierarchyViewer.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B36D6516E0D74D00C1AFB4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		88B36D6816E0D75E00C1AFB4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		88B36D6A16E0D76900C1AFB4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,12 +124,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		88B36D4516E0D5A300C1AFB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B36D6B16E0D76A00C1AFB4 /* UIKit.framework in Frameworks */,
+				88B36D6916E0D75E00C1AFB4 /* CoreGraphics.framework in Frameworks */,
+				88B36D6616E0D74D00C1AFB4 /* CoreData.framework in Frameworks */,
+				88B36D6416E0D74C00C1AFB4 /* QuartzCore.framework in Frameworks */,
+				88B36D4616E0D5A300C1AFB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		7C861E29153DF2DF00935C95 = {
 			isa = PBXGroup;
 			children = (
+				88B36D6A16E0D76900C1AFB4 /* UIKit.framework */,
+				88B36D6816E0D75E00C1AFB4 /* CoreGraphics.framework */,
+				88B36D6516E0D74D00C1AFB4 /* CoreData.framework */,
 				7C861E3A153DF2E000935C95 /* Supporting Files */,
 				7C861E39153DF2E000935C95 /* iOSViewHierarchy */,
 				7C861E36153DF2E000935C95 /* Frameworks */,
@@ -105,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				7C861E34153DF2E000935C95 /* libiOSViewHierarchy.a */,
+				88B36D5D16E0D5A300C1AFB4 /* iOSHierarchyViewer.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -226,6 +278,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		88B36D4716E0D5A300C1AFB4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B36D4816E0D5A300C1AFB4 /* iOSHierarchyViewer.h in Headers */,
+				88B36D4916E0D5A300C1AFB4 /* HVHierarchyScanner.h in Headers */,
+				88B36D4A16E0D5A300C1AFB4 /* HVHierarchyHandler.h in Headers */,
+				88B36D4B16E0D5A300C1AFB4 /* HVBase64StaticFile.h in Headers */,
+				88B36D4C16E0D5A300C1AFB4 /* HVPreviewHandler.h in Headers */,
+				88B36D4D16E0D5A300C1AFB4 /* HVPropertyEditorHandler.h in Headers */,
+				88B36D4E16E0D5A300C1AFB4 /* HVStaticFileHandler.h in Headers */,
+				88B36D4F16E0D5A300C1AFB4 /* HVBaseRequestHandler.h in Headers */,
+				88B36D5016E0D5A300C1AFB4 /* HVHTTPServer.h in Headers */,
+				88B36D5116E0D5A300C1AFB4 /* JSONKit.h in Headers */,
+				88B36D5216E0D5A300C1AFB4 /* HVDefines.h in Headers */,
+				88B36D5316E0D5A300C1AFB4 /* HVCoreDataHandler.h in Headers */,
+				88B36D5416E0D5A300C1AFB4 /* webapp_jquery.h in Headers */,
+				88B36D5516E0D5A300C1AFB4 /* webapp_style.h in Headers */,
+				88B36D5616E0D5A300C1AFB4 /* webapp_index_core.h in Headers */,
+				88B36D5716E0D5A300C1AFB4 /* webapp_navbar.h in Headers */,
+				88B36D5816E0D5A300C1AFB4 /* webapp_index_ui.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -246,6 +322,24 @@
 			productName = iOSViewHierarchy;
 			productReference = 7C861E34153DF2E000935C95 /* libiOSViewHierarchy.a */;
 			productType = "com.apple.product-type.library.static";
+		};
+		88B36D3716E0D5A300C1AFB4 /* iOSHierarchyViewer-dylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88B36D5A16E0D5A300C1AFB4 /* Build configuration list for PBXNativeTarget "iOSHierarchyViewer-dylib" */;
+			buildPhases = (
+				88B36D3816E0D5A300C1AFB4 /* Sources */,
+				88B36D4516E0D5A300C1AFB4 /* Frameworks */,
+				88B36D4716E0D5A300C1AFB4 /* Headers */,
+				88B36D5916E0D5A300C1AFB4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOSHierarchyViewer-dylib";
+			productName = iOSViewHierarchy;
+			productReference = 88B36D5D16E0D5A300C1AFB4 /* iOSHierarchyViewer.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
 
@@ -268,12 +362,27 @@
 			projectRoot = "";
 			targets = (
 				7C861E33153DF2E000935C95 /* iOSHierarchyViewer */,
+				88B36D3716E0D5A300C1AFB4 /* iOSHierarchyViewer-dylib */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		7CDFD55115E55FB7001D5841 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /usr/bin/python;
+			shellScript = "#!/usr/bin/python\n\nimport os\nimport sys\nimport base64\nimport glob\n\nwebappPath = os.getcwd() + '/iOSViewHierarchy/webapp'\n\njavascriptFiles = glob.glob(webappPath + '/*.js')\nhtmlFiles = glob.glob(webappPath + '/*.html')\ncssFiles = glob.glob(webappPath + '/*.css')\n\nallFiles = []\nallFiles.extend(javascriptFiles)\nallFiles.extend(htmlFiles)\nallFiles.extend(cssFiles)\n\nprint allFiles\n\nfor file in allFiles:\n    print 'Converting file: ' + file\n    fileHandle = open(file, \"rb\")\n    data = fileHandle.read()\n    data = base64.b64encode(data)\n    fileHandle.close()\n    \n    defineName = 'webapp_' + os.path.splitext(os.path.basename(file))[0]\n    headerFileName = defineName + '.h'\n    headerFile = webappPath + '/' + headerFileName\n    print 'Saving to ' + headerFile;\n\n    fileHandle = open(headerFile, 'w')\n    fileHandle.write(\"//\\n\")\n    fileHandle.write(\"//  \" + headerFileName + \"\\n\")\n    fileHandle.write(\"//  iOSHierarchyViewer\\n\")\n    fileHandle.write(\"//\\n\")\n    fileHandle.write(\"//\\n\")\n    fileHandle.write(\"// THIS FILE IS GENERATED AUTOMATICALLY BY XCODE's script\\n\")\n    fileHandle.write(\"//\\n\")\n    fileHandle.write(\"//\\n\")\n    fileHandle.write(\"\\n\")\n    fileHandle.write(\"#ifndef iOSHierarchyViewer_\" + defineName + \" \\n\")\n    fileHandle.write(\"#define iOSHierarchyViewer_\" + defineName + \" \\n\")\n    fileHandle.write(\"\\n\")\n    fileHandle.write(\"#define \" + defineName.upper() + \" @\\\"\" + data +  \"\\\"\")\n    fileHandle.write(\"\\n\")\n    fileHandle.write(\"\\n\")\n    fileHandle.write(\"#endif\\n\")\n    fileHandle.close()\n    \n\n";
+		};
+		88B36D5916E0D5A300C1AFB4 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -303,9 +412,26 @@
 				7CB3BD6F158A44CF0001D338 /* HVStaticFileHandler.m in Sources */,
 				7CB3BD71158A44CF0001D338 /* HVBaseRequestHandler.m in Sources */,
 				7CB3BD73158A44CF0001D338 /* HVHTTPServer.m in Sources */,
-				7CB3BD7A158A45850001D338 /* JSONKit.m in Sources */,
 				7CE2ED1515E40CDE00684792 /* HVCoreDataHandler.m in Sources */,
 				7C11395815E580BA004AED3F /* navbar.js in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B36D3816E0D5A300C1AFB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B36D3916E0D5A300C1AFB4 /* iOSHierarchyViewer.m in Sources */,
+				88B36D3A16E0D5A300C1AFB4 /* HVHierarchyScanner.m in Sources */,
+				88B36D3B16E0D5A300C1AFB4 /* HVHierarchyHandler.m in Sources */,
+				88B36D3C16E0D5A300C1AFB4 /* HVBase64StaticFile.m in Sources */,
+				88B36D3D16E0D5A300C1AFB4 /* HVPreviewHandler.m in Sources */,
+				88B36D3E16E0D5A300C1AFB4 /* HVPropertyEditorHandler.m in Sources */,
+				88B36D3F16E0D5A300C1AFB4 /* HVStaticFileHandler.m in Sources */,
+				88B36D4016E0D5A300C1AFB4 /* HVBaseRequestHandler.m in Sources */,
+				88B36D4116E0D5A300C1AFB4 /* HVHTTPServer.m in Sources */,
+				88B36D4316E0D5A300C1AFB4 /* HVCoreDataHandler.m in Sources */,
+				88B36D4416E0D5A300C1AFB4 /* navbar.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +457,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACH_O_TYPE = staticlib;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -347,6 +474,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACH_O_TYPE = staticlib;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -382,6 +510,44 @@
 			};
 			name = Release;
 		};
+		88B36D5B16E0D5A300C1AFB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/iOSViewHierarchy.dst;
+				EXECUTABLE_EXTENSION = dylib;
+				EXECUTABLE_PREFIX = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSViewHierarchy/iOSHierarchyViewer-Prefix.pch";
+				MACH_O_TYPE = mh_dylib;
+				OTHER_CFLAGS = "-DTARGET_DYNAMIC";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = iOSHierarchyViewer;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		88B36D5C16E0D5A300C1AFB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/iOSViewHierarchy.dst;
+				EXECUTABLE_EXTENSION = dylib;
+				EXECUTABLE_PREFIX = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSViewHierarchy/iOSHierarchyViewer-Prefix.pch";
+				MACH_O_TYPE = mh_dylib;
+				OTHER_CFLAGS = "-DTARGET_DYNAMIC";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = iOSHierarchyViewer;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -399,6 +565,15 @@
 			buildConfigurations = (
 				7C861E42153DF2E000935C95 /* Debug */,
 				7C861E43153DF2E000935C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88B36D5A16E0D5A300C1AFB4 /* Build configuration list for PBXNativeTarget "iOSHierarchyViewer-dylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B36D5B16E0D5A300C1AFB4 /* Debug */,
+				88B36D5C16E0D5A300C1AFB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
