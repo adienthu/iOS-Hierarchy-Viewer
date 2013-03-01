@@ -19,7 +19,9 @@ Features
 Installation
 ====================
 
-+ download newest version of library avaiable here: [Lib]
+Static library
+
++ build the target iOSHierarchyViewer
 + add these files to your project (drag&drop into xCode project)
 + make sure that you have added “-ObjC -all_load” to “other linker flags” (click at project root element, select “Build settings” tab, search for “other linker flags”)
 + if you already have JSONKit.m file in your project, please remove it because of linker conflict
